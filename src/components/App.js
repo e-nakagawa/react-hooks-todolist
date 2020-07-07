@@ -13,7 +13,7 @@ const App = () => {
             <DispatchContext.Provider value={dispatch}>
                 <TodoList todos={todos} />
                 <Form />
-            </DispatchContext.Provider>{" "}
+            </DispatchContext.Provider>
         </div>
     );
 };

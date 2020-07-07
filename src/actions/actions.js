@@ -7,7 +7,7 @@
  * dispatch({ type: 'ADD_TODO', text: String })
  * reducer(todos, { type: 'ADD_TODO', text: String }) => {...}
  */
-export const iniTodo = (todos) => {
+export const initTodo = (todos) => {
     return {
         type: "INIT_TODO",
         todos,
